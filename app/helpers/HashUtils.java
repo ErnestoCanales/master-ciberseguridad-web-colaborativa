@@ -3,8 +3,6 @@ package helpers;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
-<<<<<<< HEAD
-=======
 import java.security.*;
 import javax.crypto.spec.SecretKeySpec;
 import javax.crypto.*;
@@ -15,7 +13,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 
->>>>>>> 5d47f31 (Creacion tokens de sesion y control de autenticacion)
 
 public class HashUtils {
 
@@ -33,8 +30,6 @@ public class HashUtils {
         } catch (Exception e) {}
         return s;
     }
-<<<<<<< HEAD
-=======
 
     /*
        Funcion que devuelve la firma un HMAC
@@ -147,5 +142,4 @@ public class HashUtils {
         }
     }
     
->>>>>>> 5d47f31 (Creacion tokens de sesion y control de autenticacion)
 }
